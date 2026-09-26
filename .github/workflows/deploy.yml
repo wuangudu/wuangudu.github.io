@@ -28,16 +28,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: docs
+        working-directory: Project-ATRI-Docs-main   # ← 关键：进入这个文件夹
 
       - name: Build
         run: npm run docs:build
-        working-directory: docs
+        working-directory: Project-ATRI-Docs-main   # ← 关键：进入这个文件夹
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: Project-ATRI-Docs-main/docs/.vitepress/dist   # ← 输出路径也相应修改
 
   deploy:
     environment:
