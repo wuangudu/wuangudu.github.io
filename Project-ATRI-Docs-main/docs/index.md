@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 加入 QQ 群
-      link: https://qm.qq.com/cgi-bin/qm/qr.html?k=WqL_9-6m1MNhvK6Grrh5CN1nSvo4TwvY&jump_from=webapi&authKey=Wx3eMAaudqwMTkRbpohpanFX/Whd3ufKtYbB7G6fDEYgEZOOiVpU1jHlcYfGWEK1
+      link: https://qun.qq.com/universal-share/share?ac=1&authKey=q5cDheD61bsd59f3gWVJ36OnqYJXFouTwgB9tUIkj0eBJw5mOpviDoGxNVtoSlmX&busi_data=eyJncm91cENvZGUiOiIxMTA0MTQ4NjQ1IiwidG9rZW4iOiJSMWhwTEJuREJuOTI1QnZGSjgwMVpwYWpGMHJ1bTkwajhBbGdhdjRpdHp6bGsya2pudGdVc1Bjc2trUDkxMXlyIiwidWluIjoiMTg1MDYzMDY3MCJ9&data=M-qT138VfoVy5SKnO77nicW3PIXOnS7VnxxhddDoehfb_m4qpGzxJ79FNV5hTzjVeA3BmHVSlbxR7GFJB4gfoQ&svctype=4&tempid=h5_group_info
     - theme: alt
       text: 了解更多
       link: /guide/
