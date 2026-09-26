@@ -4,6 +4,9 @@ hero:
   name: ATRI
   text: 亚托莉机器人
   tagline: 养成 · 记忆 · 翻唱 · 语音
+  image:
+    src: /atri.png
+    alt: 亚托莉
   actions:
     - theme: brand
       text: 加入 QQ 群
