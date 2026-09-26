@@ -14,6 +14,7 @@ export default {
         search: { provider: 'local' },
         nav: [
             { text: '首页', link: '/' },
+            { text: '使用教程', link: '/guide' },
             { text: '功能介绍', link: '/features' },
             { text: '常见问题', link: '/faq' },
             { text: '加入 QQ 群', link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=q5cDheD61bsd59f3gWVJ36OnqYJXFouTwgB9tUIkj0eBJw5mOpviDoGxNVtoSlmX&busi_data=eyJncm91cENvZGUiOiIxMTA0MTQ4NjQ1IiwidG9rZW4iOiJSMWhwTEJuREJuOTI1QnZGSjgwMVpwYWpGMHJ1bTkwajhBbGdhdjRpdHp6bGsya2pudGdVc1Bjc2trUDkxMXlyIiwidWluIjoiMTg1MDYzMDY3MCJ9&data=M-qT138VfoVy5SKnO77nicW3PIXOnS7VnxxhddDoehfb_m4qpGzxJ79FNV5hTzjVeA3BmHVSlbxR7GFJB4gfoQ&svctype=4&tempid=h5_group_info', target: '_blank' },
