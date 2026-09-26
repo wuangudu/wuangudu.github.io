@@ -60,5 +60,34 @@ a:hover {
 }
 
 .VPFooter {
-  z-index: -1 !important;
+  z-index: 0 !important;
+}
+
+/* Hero 立绘调整 */
+.VPHero .image-container {
+  /* 取消默认 192px 限制，让容器可以更大 */
+  max-width: 100%;
+  max-height: none;
+}
+
+.VPHero .image-bg {
+  /* 隐藏默认的模糊光晕背景（竖图会被拉长，不好看） */
+  display: none;
+}
+
+.VPHero .image-src {
+  /* 控制立绘实际显示尺寸，按需调整 */
+  max-width: 320px;
+  max-height: 700px;
+  object-fit: contain;
+  /* 可选：加点阴影让立绘更立体 */
+  filter: drop-shadow(0 0 20px rgba(58, 142, 230, 0.3));
+}
+
+/* 移动端适配：小屏时缩小 */
+@media (max-width: 768px) {
+  .VPHero .image-src {
+    max-width: 200px;
+    max-height: 440px;
+  }
 }
