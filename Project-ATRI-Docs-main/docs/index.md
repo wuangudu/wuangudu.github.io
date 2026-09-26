@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 加入 QQ 群
-      link: <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=WqL_9-6m1MNhvK6Grrh5CN1nSvo4TwvY&jump_from=webapi&authKey=Wx3eMAaudqwMTkRbpohpanFX/Whd3ufKtYbB7G6fDEYgEZOOiVpU1jHlcYfGWEK1"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="ATRI伊甸纯种萝卜子聚" title="ATRI伊甸纯种萝卜子聚"></a>
+      link: https://qm.qq.com/cgi-bin/qm/qr.html?k=WqL_9-6m1MNhvK6Grrh5CN1nSvo4TwvY&jump_from=webapi&authKey=Wx3eMAaudqwMTkRbpohpanFX/Whd3ufKtYbB7G6fDEYgEZOOiVpU1jHlcYfGWEK1
     - theme: alt
       text: 了解更多
       link: /guide/
