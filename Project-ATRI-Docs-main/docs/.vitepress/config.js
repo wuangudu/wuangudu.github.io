@@ -2,6 +2,7 @@ export default {
     lang: 'zh-CN',
     title: 'wuangudu ATRI',
     description: '基于 NapCat 的亚托莉 QQ 机器人 —— 养成 · 记忆 · 翻唱 · 语音',
+    ignoreDeadLinks: true
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'theme-color', content: '#3a8ee6' }],
