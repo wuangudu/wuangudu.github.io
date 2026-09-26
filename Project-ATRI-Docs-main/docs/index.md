@@ -1,28 +1,30 @@
 ---
 layout: home
-
-title: ATRI
-titleTemplate: Document for ATRI
-
 hero:
   name: ATRI
-  text: アトリは、高性能ですから！
-  tagline: 基于 Nonebot2 开发的高性能机器人。
+  text: 亚托莉机器人
+  tagline: 养成 · 记忆 · 翻唱 · 语音
   actions:
     - theme: brand
-      text: 深入了解
-      link: /quick_start/introduction.md
+      text: 加入 QQ 群
+      link: https://qm.qq.com/q/1104148645
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/Kyomotoi/ATRI
+      text: 了解更多
+      link: /guide/
 
 features:
-  - title: “高性能”
-    details: 得益于强大的 NoneBot 2 和 go-cqhttp，真正意义上实现：全平台运行、运行时资源占用极少。
-  - title: 图形化控制界面（开发中）
-    details: ATRI 提供网页管理页面，让你不再拘泥于聊天框管理 ATRI。
-  - title: 完善的管理系统
-    details: 分群分人禁用/启用某项服务，分群分人封禁/解封。
-  - title: 细致入微的帮助
-    details: 精确到服务的单条命令。（仅当插件为 ATRI 本身所有时）
+  - title: 亚托莉养成系统
+    details: 通过日常互动培养好感度，解锁专属对话与隐藏剧情，让她成为只属于你的伙伴。
+  - title: 长期记忆能力
+    details: 基于长期记忆系统，ATRI 能记住你们的每一次交流、每一个约定，像真正的朋友一样陪伴你。
+  - title: RVC 翻唱
+    details: 基于 RVC 声音模型，ATRI 可以用亚托莉的声线为你翻唱歌曲，随时点歌。
+  - title: TTS 语音服务
+    details: 支持文本转语音，让 ATRI 亲口说出每一句话，聊天不再只是文字。
 ---
+
+欢迎来到 ATRI 机器人展示站！这是一只基于 NapCat 构建的 QQ 机器人，以《ATRI -My Dear Moments-》中的亚托莉为原型。
+
+她拥有丰富的互动能力：通过亚托莉养成系统，你可以与她培养好感度，解锁专属对话；长期记忆能力让她记住你们的每一次交流，像真正的伙伴一样陪伴你。她还支持 RVC 翻唱，能用亚托莉的声线为你演唱歌曲；TTS 语音服务则让她能亲口说出每一句话。
+
+无论是日常聊天还是功能体验，ATRI 都期待与你相遇。欢迎加入我们的 QQ 群：**1104148645**，一起探索更多可能！
