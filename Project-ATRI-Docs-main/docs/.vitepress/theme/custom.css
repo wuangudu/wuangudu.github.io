@@ -91,3 +91,92 @@ a:hover {
     max-height: 440px;
   }
 }
+html {
+  background: linear-gradient(135deg, #e0f7ff 0%, #f0f9ff 50%, #e6f4fa 100%);
+  background-attachment: fixed;
+}
+
+html.dark {
+  background: linear-gradient(135deg, #0a1929 0%, #0d1f30 50%, #0a1929 100%);
+  background-attachment: fixed;
+}
+
+body {
+  background: transparent;
+  min-height: 100vh;
+}
+
+/* 右上角光斑 */
+body::before {
+  content: '';
+  position: fixed;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 195, 235, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* 左下角光斑 */
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -200px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 195, 235, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.dark body::before {
+  background: radial-gradient(circle, rgba(0, 195, 235, 0.2) 0%, transparent 70%);
+}
+
+.dark body::after {
+  background: radial-gradient(circle, rgba(0, 195, 235, 0.15) 0%, transparent 70%);
+}
+/* 让主容器透明，露出 body 渐变 */
+.Layout {
+  background: transparent !important;
+}
+
+/* 导航栏半透明 + 模糊，滚动时不突兀 */
+.VPNav {
+  background: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.dark .VPNav {
+  background: rgba(10, 25, 41, 0.75) !important;
+}
+
+/* 页脚透明 */
+.VPFooter {
+  background: transparent !important;
+}
+/* 让内容区域透明，露出渐变背景 */
+.VPDoc,
+.VPSidebar,
+.VPContent,
+.VPFeature {
+  background: transparent !important;
+}
+
+/* 功能卡片用半透明白，有层次感 */
+.VPFeature {
+  background: rgba(255, 255, 255, 0.6) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 195, 235, 0.15);
+}
+
+.dark .VPFeature {
+  background: rgba(37, 37, 41, 0.6) !important;
+}
